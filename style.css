@@ -1,5 +1,6 @@
 .wdsup {
-    font-size: 40%;
+    font-size: medium;
     vertical-align: top;
     text-decoration: None;
+    line-height: unset;
 }

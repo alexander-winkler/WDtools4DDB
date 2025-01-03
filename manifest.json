@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "ddbWDchecker",
+  "name": "Wikidata-Tools für DDB",
   "version": "0.1",
   "author": "Alexander Winkler",
-  "homepage_url": "https://github.com/alexander-winkler/test",
+  "homepage_url": "https://github.com/alexander-winkler/WDtools4DDB",
 
   "description": "Checks if the DDB object is on Wikidata",
 
