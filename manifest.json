@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "ddbWDchecker",
+  "version": "0.1",
+  "author": "Alexander Winkler",
+  "homepage_url": "https://github.com/alexander-winkler/test",
+
+  "description": "Checks if the DDB object is on Wikidata",
+
+  "permissions" : [ 
+    "*://www.wikidata.org/*"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["*://www.deutsche-digitale-bibliothek.de/item/*"],
+      "js": ["WDchecker.js"],
+      "css": ["style.css"]
+    }
+  ]
+}
+
